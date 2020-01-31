@@ -2,14 +2,33 @@
   box-sizing: border-box;}
 }
 
-h1 {
-  font: bold
-  font-size: 10em;
+body {
+  font-family: sans-serif;
 }
 
-img {
-  max-width: 100%;
-  float: inherit;
+.container {
+  width: 380px;
+}
+
+h1 {
+  font: bold;
+  font-size: 2em;
+}
+
+.map {
+  background-image: image(#);
+  height: 175px;
+  width: 100%;
+}
+
+.row {
+  padding-top: 20px;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 10px;
 }
 
 .topnav input [type=text] {
