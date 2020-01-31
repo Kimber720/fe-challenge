@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  width: 380px;
+  width: 420px;
 }
 
 h1 {
@@ -30,11 +30,11 @@ h1 {
 }
 
 .list {
-  padding-top: 275px;
+  padding-top: 250px;
 }
 
 li {
-  display: inline;
+  display: inline-block;
   list-style-type: none;
   padding-right: 10px;
   }
@@ -45,3 +45,10 @@ nav {
   border: none;
   font-size: 1em;
 }
+
+.arrow {
+  display: inline-block;
+  width: 5px;
+  float: right;
+  margin-top: 5px;
+  }
