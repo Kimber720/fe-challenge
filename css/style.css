@@ -13,29 +13,35 @@ body {
 h1 {
   font: bold;
   font-size: 2em;
-  padding-left: 2px;
+  padding-left: 25px;
 }
 
 .map {
   background-image: image(#);
   height: 225px;
   width: 100%;
+  top: 20px;
+  position: absolute;
+  z-index: -1;
 }
 
 .row {
   padding-top: 20px;
 }
 
+.list {
+  padding-top: 275px;
+}
+
 li {
   display: inline;
   list-style-type: none;
   padding-right: 10px;
-}
+  }
 
 nav {
   float: inherit;
   padding: 6px;
   border: none;
-  margin-top: 10px;
   font-size: 1em;
 }
