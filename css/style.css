@@ -27,6 +27,8 @@ h1 {
 
 .row {
   padding-top: 20px;
+  display: flex;
+  width: 100%;
 }
 
 .list {
@@ -37,7 +39,7 @@ h1 {
 li {
   display: inline-block;
   list-style-type: none;
-  padding-right: 10px;
+  padding-right: 20px;
   width: 20%;
   }
 
@@ -48,10 +50,8 @@ nav {
   font-size: 1em;
 }
 
-.arrow {
-  display: inline-block;
-  width: 10px;
+.fa fa-chevron-right fa-2x {
   float: right;
   margin: 10px;
-  font-size: 5px;
-  }
+  font-size: 7px;
+}
