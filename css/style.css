@@ -29,6 +29,7 @@ h1 {
   padding-top: 20px;
   display: flex;
   width: 100%;
+  justify-content: space-between;
 }
 
 .list {
@@ -47,9 +48,30 @@ nav {
   padding: 6px;
   border: none;
   font-size: 1em;
+  background-color: white;
+}
+
+.number {
+  width: 10%;
+  font-size: 15px;
+}
+
+.name {
+  width: 73%;
+  font-size: 15px;
+}
+
+.time {
+  width: 17%;
+  font-size: 15px;
+}
+
+.logo {
+  width: 0%;
+  color: grey;
 }
 
 .fa-2x {
   font-size: 10px !important;
-  float: right;
+  float: inherit;
 }
