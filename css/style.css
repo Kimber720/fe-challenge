@@ -54,8 +54,9 @@ nav {
 }
 
 .leftarrow {
-  width: auto;
+  float: left;
   color: grey;
+  padding-top: 15px;
 }
 
 .number {
