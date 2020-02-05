@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  width: 420px;
+  width: 414px;
 }
 
 h1 {
@@ -26,7 +26,7 @@ h1 {
 }
 
 .row {
-  padding-top: 20px;
+  padding-top: 18px;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -34,7 +34,9 @@ h1 {
 
 .list {
   padding-top: 270px;
-  width: 400px;
+  width: 380px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 li {
@@ -51,13 +53,18 @@ nav {
   background-color: white;
 }
 
+.leftarrow {
+  width: auto;
+  color: grey;
+}
+
 .number {
   width: 10%;
   font-size: 15px;
 }
 
 .name {
-  width: 73%;
+  width: 70%;
   font-size: 15px;
 }
 
@@ -69,6 +76,12 @@ nav {
 .logo {
   width: 0%;
   color: grey;
+}
+
+.line {
+display: block;
+margin-left: 10%;
+margin-right: auto;
 }
 
 .fa-2x {
