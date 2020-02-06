@@ -27,12 +27,17 @@ h1 {
   border-radius: 10px;
   margin-left: 30px;
   margin-right: 100px;
+  background-color: #D1D1D6;
 }
 
 .searchbox input {
   background-color: transparent;
   border: none;
-  float: right;
+}
+
+.fa-search {
+  color: grey;
+  margin-left: -25px;
 }
 
 .map {
