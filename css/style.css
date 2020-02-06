@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .container {
@@ -17,7 +17,7 @@ header {
 h1 {
   font-weight: bold;
   font-size: 2em;
-  padding-left: 30px;
+  padding-left: 50px;
   padding-bottom: 10px;
   padding-top: 5px;
 }
@@ -25,9 +25,10 @@ h1 {
 .searchbox {
   padding-left: 30px;
   border-radius: 10px;
-  margin-left: 30px;
-  margin-right: 100px;
+  margin-left: 50px;
+  margin-right: 65px;
   background-color: #D1D1D6;
+  height: 25px;
 }
 
 .searchbox input {
@@ -38,6 +39,7 @@ h1 {
 .fa-search {
   color: grey;
   margin-left: -25px;
+  padding-top: 4px;
 }
 
 .map {
@@ -50,10 +52,15 @@ h1 {
 }
 
 .row {
-  padding-top: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+hr {
+  color: grey;
 }
 
 .list {
@@ -80,7 +87,7 @@ nav {
   float: left;
   color: blue;
   padding-top: 20px;
-  padding-left: 5px;
+  padding-left: 8px;
 }
 
 .number {
