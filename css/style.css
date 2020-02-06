@@ -10,10 +10,20 @@ body {
   width: 414px;
 }
 
+header {
+  background: white;
+}
+
 h1 {
   font: bold;
   font-size: 2em;
-  padding-left: 25px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.searchbox {
+  padding-left: 30px;
 }
 
 .map {
@@ -50,13 +60,12 @@ nav {
   padding: 6px;
   border: none;
   font-size: 1em;
-  background-color: white;
 }
 
 .leftarrow {
   float: left;
   color: grey;
-  padding-top: 15px;
+  padding-top: 25px;
 }
 
 .number {
